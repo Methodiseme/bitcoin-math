@@ -19,7 +19,7 @@ Number.prototype.toSatoshi = function() {
     }
 };
 
-Number.prototype.toBitcoin = function() {
+Number.prototype.toMonero = function() {
     if (isNaN(this)) return NaN;
     if (this === 0) return 0;
     var str = parseInt(this, 10).toString();
