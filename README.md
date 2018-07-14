@@ -80,7 +80,7 @@ should return a decimal with zeros added (1.123 => 1.123000000000).
 
 ```js
 var monero = 1.123;
-assert(bitcoin.zeroFill() === "1.123000000000");
+assert(monero.zeroFill() === "1.123000000000");
 ```
 
 should return NaN if the original is NaN.
