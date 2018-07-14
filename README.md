@@ -15,8 +15,7 @@ still use the number prototypes.
    - [Number.toBitcoin()](#numbertobitcoin)
    - [Number.toSatoshi()](#numbertosatoshi)
    - [Number.zeroFill()](#numberzerofill)
-   - [#getRandomSatoshi()](#getrandomsatoshi)
-   - [#getRandomBitcoin()](#getrandombitcoin)
+
 <a name=""></a>
  
 <a name="numbertobitcoin"></a>
@@ -95,27 +94,5 @@ var bad = NaN;
 assert(isNaN(bad.zeroFill()));
 ```
 
-<a name="getrandomsatoshi"></a>
-# #getRandomSatoshi()
-should reurn an integer value between the specified values with specified non zero digits.
 
-```js
-var rand = btcMath.getRandomSatoshi(100, 10000);
-assert(rand > 100);
-assert(rand < 10000);
-var nonZeros = rand.toString().replace(/0/g, "").length;
-assert(nonZeros <= 2);
-```
-
-<a name="getrandombitcoin"></a>
-# #getRandomBitcoin()
-should reurn a float value between the specified values with specified non zero digits.
-
-```js
-var rand = btcMath.getRandomBitcoin(1, 100, 4);
-assert(rand > 1);
-assert(rand < 100);
-var nonZeros = rand.toSatoshi().toString().replace(/0/g, "").length;
-assert(nonZeros <= 4);
-```
 
