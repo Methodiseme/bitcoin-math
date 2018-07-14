@@ -8,13 +8,13 @@ Also adds a zeropad method for making full length XMR strings
 
 
 # TOC
-   - [Number.toBitcoin()](#numbertomonero)
+   - [Number.toMonero()](#numbertomonero)
    - [Number.toSatoshi()](#numbertosatoshi)
    - [Number.zeroFill()](#numberzerofill)
 
 <a name=""></a>
  
-<a name="numbertobitcoin"></a>
+<a name="numbertomonero"></a>
 # Number.toMonero()
 should add the toMonero function to the Number object.
 
