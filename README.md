@@ -1,4 +1,4 @@
-#bitcoin-math
+# monero-math
 
 Provides number prototypes for converting between XMR and Satoshi values. It
 uses string based parsing, which avoids JavaScript's nasty problem of doing
